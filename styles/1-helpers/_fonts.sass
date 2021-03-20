@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+h1
+    font-family: v(dmfont)
+    font-size: clamp(3.2rem, 1rem + 5vw ,7.2rem)
+    color: v(medium-blue)
+    line-height: clamp(3.6rem, 1.75rem + 5vw ,7.2rem)
+    letter-spacing: clamp(0.025rem, 0.0485vw, 0.055rem)
+
+h1.small
+    @extend h1
+    font-size: clamp(3.2rem, 1rem + 5vw , 5.6rem)
+    line-height: clamp(3.6rem, 1.75rem + 5vw , 5.6rem)
+    letter-spacing: clamp(0.025rem, 0.0485vw, 0.055rem)
+
+h2
+    @extend h1
+    font-size: clamp(3.2rem, 1rem + 5vw , 4.8rem)
+    line-height: clamp(3.6rem, 1.75rem + 5vw , 5.6rem)
+    letter-spacing: clamp(-0.025rem, -0.0685vw, -0.037rem)
+
+h3
+    @extend h1
+    font-size: clamp(2.4rem, 0.8rem + 2vw , 3.2rem)
+    line-height: clamp(3.2rem, 1.75rem + 5vw , 4rem)
+    letter-spacing: clamp(-0.018rem, -0.018rem + -0.0985vw, -0.025rem)
+
+h3.small   
+    @extend h3
+    font-family: v(sans-font)
+    font-size: 1.8rem
+    line-height: 2.5rem
+    letter-spacing: -0.014rem
+
+h4
+    @extend h1
+    font-size: 2.4rem
+    line-height: 3.2rem
+    letter-spacing: -0.018rem
+
+p
+    font-family: v(sans-font)
+    font-size: 1.5rem
+    line-height: 2.5rem
+    letter-spacing: -0.012rem
+
+

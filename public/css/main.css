@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --dark-pink: #ba4270;
+  --white: #fbfcfe;
+  --medium-blue: #36536b;
+  --dark-blue: #1b262f;
+  --light-blue: #6c8294;
+  --light-pink: #da6d97;
+  font-size: 62.5%;
+  --dmfont: "DM Serif Display", serif;
+  --sans-font: "Public Sans", sans-serif;
+}
+
+h1, h4, h4.small, h3, h3.small, h2, h2.small, h1.small {
+  font-family: var(--dmfont);
+  font-size: clamp(3.2rem, 1rem + 5vw ,7.2rem);
+  color: var(--medium-blue);
+  line-height: clamp(3.6rem, 1.75rem + 5vw ,7.2rem);
+  letter-spacing: clamp(0.025rem, 0.0485vw, 0.055rem);
+}
+
+h1.small, h4.small, h3.small, h2.small {
+  font-size: clamp(3.2rem, 1rem + 5vw , 5.6rem);
+  line-height: clamp(3.6rem, 1.75rem + 5vw , 5.6rem);
+  letter-spacing: clamp(0.025rem, 0.0485vw, 0.055rem);
+}
+
+h2 {
+  font-size: clamp(3.2rem, 1rem + 5vw , 4.8rem);
+  line-height: clamp(3.6rem, 1.75rem + 5vw , 5.6rem);
+  letter-spacing: clamp(-0.025rem, -0.0685vw, -0.037rem);
+}
+
+h3, h3.small {
+  font-size: clamp(2.4rem, 0.8rem + 2vw , 3.2rem);
+  line-height: clamp(3.2rem, 1.75rem + 5vw , 4rem);
+  letter-spacing: clamp(-0.018rem, -0.018rem + -0.0985vw, -0.025rem);
+}
+
+h3.small {
+  font-family: var(--sans-font);
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.014rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  letter-spacing: -0.018rem;
+}
+
+p {
+  font-family: var(--sans-font);
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.012rem;
+}
+
+/*# sourceMappingURL=main.css.map */
