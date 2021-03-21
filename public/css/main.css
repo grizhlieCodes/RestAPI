@@ -187,12 +187,4 @@ button.secondary.dark:hover:not(:disabled) {
   font-weight: 700;
 }
 
-button.test {
-  padding: 1rem;
-}
-
-button.fromMac {
-  padding: 69px;
-}
-
 /*# sourceMappingURL=main.css.map */
