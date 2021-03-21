@@ -187,4 +187,8 @@ button.secondary.dark:hover:not(:disabled) {
   font-weight: 700;
 }
 
+button.test {
+  padding: 1rem;
+}
+
 /*# sourceMappingURL=main.css.map */
