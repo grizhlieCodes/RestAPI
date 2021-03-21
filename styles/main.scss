@@ -8,7 +8,14 @@
 //****************************
 //           2-BASE
 //****************************
-// @import './2\ -\ base/resets';
+@import './2-base/global';
+@import './2-base/resets';
+
+
+//****************************
+//           4-components
+//****************************
+@import './4-components/buttons';
 
 
 
